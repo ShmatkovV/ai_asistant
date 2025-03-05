@@ -1,1 +1,64 @@
-venv
+# Игнорировать виртуальное окружение
+venv/
+.env/
+.env.local
+.env.development
+.env.production
+
+# Игнорировать файлы настроек Django
+/settings/local.py
+/settings/dev.py
+/settings/prod.py
+
+# Игнорировать файлы базы данных
+*.sqlite3
+*.db
+
+# Игнорировать статические файлы (если они генерируются автоматически)
+/staticfiles/
+/mediafiles/
+
+# Игнорировать файлы кэша Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорировать файлы VSCode
+.vscode/
+
+# Игнорировать файлы IDE
+.idea/
+*.swp
+*.swo
+
+# Игнорировать файлы логов
+*.log
+
+# Игнорировать файлы зависимостей
+/node_modules/
+/bower_components/
+
+# Игнорировать файлы миграций (если они генерируются автоматически)
+/migrations/
+
+# Игнорировать файлы сборки
+/build/
+/dist/
+*.egg-info/
+
+# Игнорировать файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы тестов
+/coverage/
+/htmlcov/
+/.pytest_cache/
+
+# Игнорировать файлы Jupyter Notebook
+.ipynb_checkpoints/
+
+# Игнорировать файлы временных данных
+/tmp/
+/temp/
