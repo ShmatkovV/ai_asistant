@@ -30,7 +30,8 @@ INSTALLED_APPS = [
 
     'apps.users',
     'apps.interviews',
-    'apps.ai_interaction',
+    'apps.ai_integration',
+
 ]
 
 MIDDLEWARE = [
