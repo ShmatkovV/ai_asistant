@@ -26,8 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.postgres',
+    'rest_framework',
 
-    'mock_interview_platform',
     'apps.users',
     'apps.interviews',
     'apps.ai_interaction',
@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mock_interview_platform.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -61,7 +61,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mock_interview_platform.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
