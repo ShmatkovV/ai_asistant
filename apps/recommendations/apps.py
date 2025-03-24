@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AiIntegrationConfig(AppConfig):
+class RecommendationsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.ai_integration'
+    name = 'apps.recommendations'
