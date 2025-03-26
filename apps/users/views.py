@@ -4,10 +4,9 @@ from rest_framework import status
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
-from .serializers import UserSerializer
+from apps.users.serializers import UserSerializer
 
 
-# Регистрация нового пользователя
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def register_user(request):
